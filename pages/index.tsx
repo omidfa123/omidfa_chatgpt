@@ -5,11 +5,8 @@ function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-6">
-        <Text variant="h1">OpenAI GPT-3 text model usage example</Text>
-        <Text className="text-zinc-600">
-          In this example, a simple chat bot is implemented using Next.js, API
-          Routes, and OpenAI API.
-        </Text>
+        <Text variant="h1">OmidFa</Text>
+        <Text className="text-zinc-600">Welcome</Text>
       </section>
 
       <section className="flex flex-col gap-3">
@@ -19,7 +16,7 @@ function Home() {
         </div>
       </section>
     </Page>
-  )
+  );
 }
 
 Home.Layout = Layout
